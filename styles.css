@@ -1,0 +1,103 @@
+/* Global Styles */
+
+body {
+    font-family: sans-serif;
+    font-size:16px;
+    color:#222;
+    padding:0;
+    margin:0;
+}
+
+h1 {
+    color:white;
+    float:right;
+    margin:0;
+}
+
+h2 {
+    margin-top:0;
+}
+
+h3 {
+    font-size:0.8em;
+    font-weight:bold;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+.uppercase {
+    font-size: 0.6em;
+    text-transform: uppercase;
+}
+
+.right {
+    float:right;
+    clear:both;
+}
+
+.fa-share {
+    background-color:white;
+    border-radius:50%;
+    color:#333;
+    padding:15px;
+}
+
+a {
+    color:#999;
+    text-decoration: none;
+}
+
+/* Layout Styles */
+
+header {
+    background-color:#222;
+    padding:10px 20px 20px 20px;
+}
+
+.header-top {
+    display:flex;
+    justify-content: flex-end;
+}
+
+.user-menu {
+    color:lightskyblue;
+}
+
+nav {
+    display:flex;
+}
+
+.nav-item {
+    font-size:1em;
+    line-height: 32px;
+    display:block;
+    padding:0 15px;
+}
+
+section {
+    padding: 30px 20px 20px;
+    background-color:#eee;
+}
+
+.grid_container {
+ display:grid;
+ grid-template-columns: 25% 25% 25% 25%; 
+}
+
+.grid_item {
+    margin:5px;
+    background-color:white;
+    box-shadow:0 0 5px 0 rgba(0,0,0,0.5)
+}
+
+.share-banner {
+    background-image: url();
+    padding:5px 5px 40px;
+    background-color:rgba(0,0,0,0.5);
+}
+
+.share-info {
+    padding:5px;
+}
